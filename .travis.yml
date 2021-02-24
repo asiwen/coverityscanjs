@@ -4,7 +4,7 @@ env:
   global:
     # COVERITY_SCAN_TOKEN
     # ** specific to your project **
-    - secure: "xxxx"
+    - secure: "cxQUEhOfhD08OUd4T1KLyg"
 
 addons:
   coverity_scan:
@@ -12,7 +12,7 @@ addons:
     # GitHub project metadata
     # ** specific to your project **
     project:
-      name: asiwen/coverityscanjs
+      name: coverityscanjs
       version: 1.0
       description: coverityscanjs
 
@@ -21,11 +21,11 @@ addons:
 
     # Commands to prepare for build_command
     # ** likely specific to your build **
-    build_command_prepend: ./configure
+    # build_command_prepend: ./configure
 
     # The command that will be added as an argument to "cov-build" to compile your project for analysis,
     # ** likely specific to your build **
-    build_command: make
+    # build_command: make
 
     # Pattern to match selecting branches that will run analysis. We recommend leaving this set to 'coverity_scan'.
     # Take care in resource usage, and consider the build frequency allowances per
